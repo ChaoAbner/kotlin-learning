@@ -1,4 +1,4 @@
-package demo
+package demo.collection
 
 /**
  * 集合
@@ -24,6 +24,8 @@ fun collection2() {
 fun collection3() {
     list.filter { it.startsWith("a") }.sortedBy { it }.map { it.toUpperCase() }.forEach { println(it) }
 }
+
+
 
 fun main() {
     collection1()
